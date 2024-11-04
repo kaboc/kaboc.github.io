@@ -20,12 +20,22 @@ html {
 h1 {
   margin: 0;
   font-size: 32px;
+  display: inline-flex;
+}
+
+h1 > .profile-image {
+  width: 38px;
+  height: 38px;
+  margin-left: 4px;
+  background-size: 38px;
+  background-image: url('../images/apple-touch-icon.png');
 }
 
 h2 {
   margin: 0;
   font-size: 18px;
   font-weight: normal;
+  color: #888;
 }
 
 ul {
@@ -48,4 +58,10 @@ a {
 
 a:hover {
   color: #669545;
+}
+
+.fi {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  transform: scale(0.6);
 }
